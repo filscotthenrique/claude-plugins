@@ -8,8 +8,11 @@
   "plugins": [
     {
       "name": "abeam-marketing",
-      "version": "0.1.0",
-      "source": "./abeam-marketing"
+      "version": "0.2.0",
+      "source": "./marketing",
+      "description": "Brand voice, content generation, audience messaging, competitive context, experiment tracking, and release workflows for Abeam aviation marketing.",
+      "category": "marketing",
+      "tags": ["abeam", "aviation", "brand-voice", "content-generation"]
     }
   ]
 }

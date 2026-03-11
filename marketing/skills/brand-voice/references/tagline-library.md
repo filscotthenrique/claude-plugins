@@ -35,6 +35,14 @@ These work as secondary lines on the website, in app store descriptions, on busi
 3. "Your logbook shouldn't cost more than avgas."
 4. "No paywall on your first 50 hours. Or your first 500."
 5. "Every pilot deserves modern tools. Not just the ones who can afford another subscription."
+6. "Everything they charge for. Nothing you pay for." *(added March 2026)*
+7. "The logbook they charge $130 a year for? Ours is free." *(added March 2026)*
+8. "Free isn't a trial. It's the plan." *(added March 2026)*
+9. "Your logbook shouldn't have a subscription." *(added March 2026)*
+10. "Stop renting your logbook." *(added March 2026)*
+11. "Own your logbook. Don't lease it." *(added March 2026)*
+12. "A logbook with no paywall and no asterisks." *(added March 2026)*
+13. "Free. Not freemium. Free." *(added March 2026)*
 
 ### Currency tracking
 
@@ -43,6 +51,8 @@ These work as secondary lines on the website, in app store descriptions, on busi
 3. "Your certificates, your medical, your currency — handled."
 4. "One less thing between you and the runway."
 5. "Current? Check. Now go fly."
+6. "If your logbook can't tell you whether you're current, it's just a spreadsheet." *(added March 2026)*
+7. "Your currency status shouldn't require a calculator." *(added March 2026)*
 
 ### METAR / weather
 
@@ -57,12 +67,34 @@ These work as secondary lines on the website, in app store descriptions, on busi
 3. "Your flights deserve better than a spreadsheet."
 4. "Every flight. Every detail. Always with you."
 5. "The logbook that gets out of your way."
+6. "Log a flight before the engine cools." *(added March 2026)*
+7. "Log it. Close it. Go home." *(added March 2026)*
+8. "The fastest thing you'll do at the airport." *(added March 2026)*
+9. "Less time logging. More time flying." *(added March 2026)*
+10. "A logbook that respects your time as much as your data." *(added March 2026)*
 
 ### Aircraft management / digital hangar
 
 1. "Your aircraft, digitized. Every tail number. Every detail."
 2. "Build your hangar. Power your logbook."
 3. "Whether you rent, own, or share — your aircraft are always at your fingertips."
+4. "Track the planes you fly, not just the flights you log." *(added March 2026)*
+5. "Cessna, Cirrus, or something you built in a hangar — we don't judge." *(added March 2026)*
+6. "From a Cub to a CJ — one hangar, one logbook." *(added March 2026)*
+
+### Pilot dashboard *(added March 2026)*
+
+1. "Open the app. Know where you stand."
+2. "Your flying life, one screen."
+3. "Currency. Stats. Weather. One tap."
+4. "Every number that matters, before you leave the house."
+
+### Data portability *(added March 2026)*
+
+1. "Import everything. Export anytime. No hostage situations."
+2. "Your flights. Your data. Your call."
+3. "We don't lock your logbook in a walled garden."
+4. "Data portability isn't a feature. It's a right."
 
 ### Built by a pilot
 
