@@ -1,9 +1,9 @@
 {
-  "name": "local-desktop-app-uploads",
-  "version": "1.0.0",
-  "description": "Locally uploaded plugins via Claude Desktop app",
+  "name": "highland-software-plugins",
+  "version": "0.1.0",
+  "description": "Highland Software's plugins for Claude Code and Claude Desktop.",
   "owner": {
-    "name": "Local User"
+    "name": "Highland Software"
   },
   "plugins": [
     {
