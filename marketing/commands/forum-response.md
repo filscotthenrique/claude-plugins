@@ -6,10 +6,9 @@ argument-hint: [paste the thread or question]
 
 Draft a community response from Fil (founder of Abeam).
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — especially the forum/Reddit tone guidance and competitor mention rules
-- `product-knowledge` — for accurate product descriptions
-- `competitive-context` — only if competitors are mentioned in the thread
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read:
+- `marketer/reference/product-knowledge.md` — for accurate product descriptions
+- `marketer/reference/competitive-landscape.md` — only if competitors are mentioned in the thread
 
 **Gather these inputs** (ask if not provided in $ARGUMENTS):
 1. **The thread or question**: Paste the post/comment being responded to

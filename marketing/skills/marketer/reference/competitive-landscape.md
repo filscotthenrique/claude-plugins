@@ -1,15 +1,3 @@
----
-name: competitive-context
-description: >
-  Competitive landscape for aviation software — ForeFlight, LogTen/Pilotbase, Flight Schedule Pro,
-  MyFlightbook, Flight Circle, and Pilot Partner. Use this skill when the user asks about competitors,
-  wants to write comparison content, needs competitive positioning, or is drafting content where
-  competitive differentiation matters (blog posts, landing pages, forum responses about alternatives).
-  Also use when the user mentions any competitor by name, asks "how do we compare to X," or needs
-  to understand market positioning. Do NOT use this skill to generate copy that names competitors
-  unless the user explicitly requests a comparison — default to focusing on what Abeam does well.
----
-
 # Abeam Competitive Context
 
 Use this for internal understanding and when explicitly writing comparison content. The default in marketing copy is to focus on Abeam — not to name competitors.
@@ -29,7 +17,7 @@ Only name a competitor when ALL of these are true:
 
 **Key facts:**
 - **Platform:** iOS only. No Android. No web logbook.
-- **Pricing:** $120–$240/year depending on tier.
+- **Pricing:** $120-$240/year depending on tier.
 - **Ownership:** Sold to Thoma Bravo (private equity) in November 2025 for $10.55B. Layoffs followed in January 2026.
 - **Logbook:** Exists but is an afterthought — not a dedicated logbook product. Pilots describe it as "bolted on."
 - **Instructor features:** CFI referral program, endorsement templates (60+ from AC 61-65H), remote signing. Instructor features are decent but buried inside a $200/yr flight planning app.
@@ -44,7 +32,7 @@ Only name a competitor when ALL of these are true:
 
 **Key facts:**
 - **Platform:** iOS only. No Android. No web.
-- **Pricing:** $80–$130/year. Subscription model generates significant backlash.
+- **Pricing:** $80-$130/year. Subscription model generates significant backlash.
 - **Ownership:** Acquired by Flight Schedule Pro parent in May 2022. Rebranding to Pilotbase.
 - **Strengths:** Career logbook features (airline-focused), airline cadet program partnerships (Delta, SkyWest, Republic — 1,771+ subscribers in 2023), diversity org partnerships (NGPA, Latino Pilots Association).
 - **Vulnerabilities:** iOS-only, subscription pricing backlash, rebrand confusion, community uncertainty about direction.
@@ -57,7 +45,7 @@ Only name a competitor when ALL of these are true:
 
 **Key facts:**
 - **Platform:** Web + limited iOS app. School-facing, not pilot-facing.
-- **Pricing:** Opaque — requires sales conversation. Schools report $100–300+/month.
+- **Pricing:** Opaque — requires sales conversation. Schools report $100-300+/month.
 - **Strengths:** Market leader for flight school scheduling. Sallie Mae financing partnership. Strong event presence (8+ conferences/year).
 - **Vulnerabilities:** Pricing opacity, school-admin focus (not instructor or pilot friendly), desktop-oriented UX.
 
@@ -87,7 +75,7 @@ Only name a competitor when ALL of these are true:
 
 ## Pilot Partner
 
-**What it is:** Pilot logbook + flying club management. 3–4 person team in Austin, TX. Operates its own flying club as a testbed.
+**What it is:** Pilot logbook + flying club management. 3-4 person team in Austin, TX. Operates its own flying club as a testbed.
 
 **Key facts:**
 - **Platform:** iOS, Android, and Web.
@@ -97,7 +85,7 @@ Only name a competitor when ALL of these are true:
 
 ## Market-wide themes to leverage
 
-**Subscription fatigue:** Pilots are tired of paying $100–300/year across multiple apps. Abeam's free tier directly counters this.
+**Subscription fatigue:** Pilots are tired of paying $100-300/year across multiple apps. Abeam's free tier directly counters this.
 
 **iOS lock-in:** ForeFlight and LogTen are both iOS-only. Abeam on iOS + web is a step toward platform freedom. (Android is roadmap, not reality — don't overclaim.)
 

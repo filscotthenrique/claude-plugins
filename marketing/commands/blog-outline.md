@@ -6,13 +6,12 @@ argument-hint: [keyword or topic]
 
 Create a structured blog post outline optimized for search.
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — for voice and tone
-- `product-knowledge` — for accurate product details
-- `competitive-context` — for differentiation and comparison opportunities
-- `audience-profiles` — for the target reader's perspective
-- `platform-specs` — for blog formatting best practices
-- `tagline-library` — for potential headlines and hooks
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read these data/reference files:
+- `marketer/data/taglines.json` — for potential headlines and hooks
+- `marketer/data/audience-profiles.json` — for the target reader's perspective
+- `marketer/data/platform-specs.json` — for blog formatting best practices
+- `marketer/reference/competitive-landscape.md` — for differentiation and comparison opportunities
+- `marketer/reference/product-knowledge.md` — for accurate product details
 
 **Gather these inputs** (ask if not provided in $ARGUMENTS):
 1. **Target keyword or topic**: e.g., "best free pilot logbook app" or "how to track pilot currency"
@@ -34,7 +33,7 @@ Create a structured blog post outline optimized for search.
 6. **SEO notes**: Related keywords to include, potential featured snippet opportunity, internal/external linking strategy
 
 **For comparison content** (e.g., "ForeFlight vs Abeam"):
-- Be factual and fair about competitors (load competitive-context skill)
+- Be factual and fair about competitors (load `reference/competitive-landscape.md`)
 - Include Abeam's limitations honestly — credibility matters more than spin
 - Structure for featured snippet capture (tables, bullet comparisons)
 

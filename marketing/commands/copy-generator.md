@@ -6,11 +6,10 @@ argument-hint: [taglines | descriptions | hooks | bios | headlines] [feature or 
 
 Generate a large volume of marketing copy variations for Abeam. The goal is quantity — produce enough options that the best ones can be hand-picked and added to the tagline library or used directly.
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — for voice, tone, and the do/don't table
-- `tagline-library` — to understand existing taglines and avoid duplicating them
-- `product-knowledge` — for accurate product details
-- `audience-profiles` — if generating for a specific persona
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read these data files:
+- `marketer/data/taglines.json` — to understand existing taglines and avoid duplicating them
+- `marketer/data/audience-profiles.json` — if generating for a specific persona
+- `marketer/reference/product-knowledge.md` — for accurate product details
 
 **Determine the output type** from $ARGUMENTS (ask if not provided):
 
@@ -44,8 +43,8 @@ Produce variations by systematically varying these dimensions:
 Don't self-censor during generation. The user is picking favorites — include lines you're not sure about. A line that sounds risky might be exactly what lands.
 
 **Rules:**
-- Do NOT repeat existing taglines from the tagline-library skill verbatim. Reference them to understand the voice, then generate new ones.
-- Do NOT use anything from the "taglines to avoid" list (no "all-in-one," "next-gen," "disrupting aviation," etc.).
+- Do NOT repeat existing taglines from `data/taglines.json` verbatim. Reference them to understand the voice, then generate new ones.
+- Do NOT use anything from the `avoid_patterns` list in `data/taglines.json` (no "all-in-one," "next-gen," "disrupting aviation," etc.).
 - Do NOT mention Android. "iPhone, iPad, and the web" is the platform reality.
 - Do NOT use SaaS jargon. Every line should pass the do/don't table test.
 - DO use correct aviation terminology naturally (METAR, currency, BFR, checkride, ramp, FBO, tail number).
@@ -92,14 +91,17 @@ After generating, add a brief note:
 - "These push the boundary" — flag any that are edgy or might not land
 - "These are variations on existing library lines" — flag any that riff on current taglines
 
-**When the user selects favorites**, update the tagline library automatically:
+**When the user selects favorites**, add them to the tagline library:
 
-1. Read the current `tagline-library` SKILL.md at `skills/tagline-library/SKILL.md`
-2. For each selected line, determine the best category (existing category if it fits, or propose a new one)
-3. Append the new lines to the appropriate category sections in the tagline library
-4. If a line doesn't fit an existing category, create a new section with a clear heading
-5. Add a brief note next to new lines indicating they were generated in this session — e.g., `(added March 2026)` — so the user can track what's new vs original
-6. Also update the brand-voice reference file at `skills/brand-voice/references/tagline-library.md` to stay in sync
-7. Show the user the diff of what was added and where
+1. Read `skills/marketer/data/taglines.json`
+2. For each selected line, create a new entry with:
+   - `status`: `"active"`
+   - `added`: today's date (YYYY-MM-DD)
+   - `category` and `subcategory`: determine the best fit from existing categories
+   - `audience`: `"general"` unless the user specified a persona
+   - `usage`: `[]` (empty — not deployed yet)
+   - `notes`: `null` unless context is relevant
+3. Append the new entries to the `taglines` array in `data/taglines.json`
+4. Show the user what was added (text, category, subcategory)
 
 If the user hasn't selected specific lines yet, ask: "Which ones do you want to keep? Give me the numbers and I'll add them to the tagline library."

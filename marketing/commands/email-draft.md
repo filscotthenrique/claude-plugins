@@ -6,12 +6,11 @@ argument-hint: [newsletter | announcement | outreach] [topic]
 
 Draft a marketing email for Abeam.
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — for voice and tone
-- `audience-profiles` — for the target audience's messaging preferences
-- `tagline-library` — for subject line inspiration and hooks
-- `product-knowledge` — for accurate feature descriptions
-- `platform-specs` — for email formatting specs
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read these data/reference files:
+- `marketer/data/taglines.json` — for subject line inspiration and hooks
+- `marketer/data/audience-profiles.json` — for the target audience's messaging preferences
+- `marketer/data/platform-specs.json` — for email formatting specs
+- `marketer/reference/product-knowledge.md` — for accurate feature descriptions
 
 **Gather these inputs** (ask if not provided in $ARGUMENTS):
 1. **Email type**: newsletter, release announcement, outreach, waitlist nurture, or event follow-up

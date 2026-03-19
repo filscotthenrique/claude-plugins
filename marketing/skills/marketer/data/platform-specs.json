@@ -1,0 +1,229 @@
+{
+  "platforms": {
+    "instagram": {
+      "formats": {
+        "caption": { "max_chars": 2200, "visible_chars": 125 },
+        "hashtags": {
+          "count": "5-10",
+          "strategy": "Mix broad (#pilotlife, #generalaviation, #studentpilot, #cessna, #GA) with niche (#abeampilot, #flighttraining, #pilotlogbook)"
+        },
+        "image": {
+          "square": "1080x1080",
+          "portrait": "1080x1350",
+          "stories": "1080x1920"
+        },
+        "reels": { "max_duration_sec": 90, "optimal_duration_sec": "15-30" }
+      },
+      "rules": [
+        "Proper sentence capitalization (not all-lowercase)",
+        "Emojis encouraged as punctuation/emphasis, not as word replacements",
+        "2-4 sentences minimum for captions - a single line feels like a text, not a post",
+        "Hashtags at the end, separated by a line break",
+        "Hook in the first line (it's what shows before 'more')"
+      ],
+      "cadence": "3-4 feed posts per week + 2-3 reels/stories per week",
+      "content_types": "Screenshots, tips, community"
+    },
+    "tiktok": {
+      "formats": {
+        "video": { "max_duration_min": 10, "optimal_duration_sec": "15-60" },
+        "caption": { "max_chars": 4000 },
+        "hashtags": { "count": "3-5", "strategy": "Integrated naturally into caption" },
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920"
+      },
+      "rules": [
+        "Hook in the first 3 seconds - no slow intros",
+        "Text overlays for key points (many watch without sound)",
+        "Casual, authentic energy. Overproduced = ignored.",
+        "Trending audio optional but not required for aviation content"
+      ],
+      "cadence": "2-3 per week",
+      "content_types": "Quick tips, behind the scenes, aviation humor"
+    },
+    "reddit": {
+      "formats": {
+        "title": { "max_chars": 300, "note": "Shorter is better" },
+        "body": { "max_chars": null, "note": "No hard limit but concise wins" },
+        "hashtags": "None",
+        "emojis": "None or very sparing"
+      },
+      "rules": [
+        "Write like a forum regular, not a brand",
+        "Always disclose affiliation: 'Full disclosure, I built this' or 'I'm the founder of Abeam'",
+        "Match subreddit register: r/flying is casual and knowledgeable, r/CFI is more professional, r/StudentPilots is supportive",
+        "Never hard-sell. Be helpful first, mention Abeam only when relevant",
+        "Respond to comments - don't post and disappear"
+      ],
+      "cadence": "3-5 meaningful interactions per week (comments > posts)",
+      "content_types": "Comments, helpful replies, occasional posts",
+      "key_subreddits": ["r/flying", "r/StudentPilots", "r/CFI", "r/aviation", "r/Pilots"]
+    },
+    "linkedin": {
+      "formats": {
+        "post": { "max_chars": 3000, "visible_chars": 210 },
+        "article": { "max_chars": null, "note": "No hard limit" },
+        "image": {
+          "landscape": "1200x627",
+          "square": "1080x1080"
+        },
+        "video": { "max_duration_min": 10 },
+        "hashtags": { "count": "1-2", "placement": "At the end" }
+      },
+      "rules": [
+        "Founder voice, not brand voice. First person, reflective.",
+        "More polished than Reddit but still not corporate",
+        "Hook in the first two lines",
+        "Line breaks for readability (LinkedIn rewards short paragraphs)",
+        "1-2 hashtags max, at the end"
+      ],
+      "cadence": "2 per week",
+      "content_types": "Founder reflections, product updates, industry takes"
+    },
+    "x": {
+      "formats": {
+        "tweet": { "max_chars": 280 },
+        "thread": { "max_tweets": null, "optimal_tweets": "3-7" },
+        "image": {
+          "landscape": "1600x900",
+          "square": "1080x1080"
+        },
+        "hashtags": { "count": "1-2", "strategy": "Integrated into the sentence or at the end" }
+      },
+      "rules": [
+        "One clear thought per tweet",
+        "Thread for longer narratives (number them: 1/, 2/, etc.)",
+        "1-2 hashtags max, integrated into the sentence or at the end",
+        "No emoji overload"
+      ],
+      "cadence": "3-5 per week (mix of original + replies)",
+      "content_types": "Quick thoughts, replies, product news"
+    },
+    "youtube": {
+      "formats": {
+        "title": { "max_chars": 60, "note": "Keep the hook visible in search results" },
+        "description": { "visible_chars": 150, "max_chars": 5000 },
+        "thumbnail": {
+          "resolution": "1280x720",
+          "aspect_ratio": "16:9",
+          "notes": "High contrast text, expressive face if applicable"
+        },
+        "tags": { "count": "5-15" },
+        "video_length": {
+          "tutorials_comparisons_min": "8-15",
+          "shorts_sec": 60
+        }
+      },
+      "rules": [
+        "Title should be a clear question or statement someone would search ('Best Free Pilot Logbook App 2026')",
+        "Thumbnail text should complement, not repeat, the title",
+        "Timestamps in description for longer videos",
+        "End screen + cards linking to related content",
+        "Pin a comment with links to Abeam"
+      ],
+      "cadence": "1-2 per month (quality > quantity)",
+      "content_types": "Tutorials, comparisons, feature walkthroughs"
+    },
+    "app_store": {
+      "formats": {
+        "app_name": { "max_chars": 30 },
+        "subtitle": { "max_chars": 30 },
+        "promotional_text": { "max_chars": 170, "note": "Can be updated without a new build" },
+        "description": { "max_chars": 4000 },
+        "whats_new": { "max_chars": 4000, "recommended_max_chars": 500 },
+        "keywords": {
+          "max_chars": 100,
+          "format": "Comma-separated, no spaces after commas",
+          "notes": "No duplicates, use singular forms"
+        },
+        "screenshots": { "max_count": 10, "required_sizes": ["6.7\"", "6.5\""] }
+      },
+      "rules": [
+        "What's New: clean, scannable, factual. Short paragraphs or dashes. Not marketing fluff.",
+        "Feature names should match what the user sees in the app",
+        "Description: front-load the value prop in the first 3 lines (visible before 'more')",
+        "Keywords: no duplicates, no spaces after commas, use singular forms"
+      ]
+    },
+    "email": {
+      "formats": {
+        "subject_line": { "optimal_chars": "30-50", "ideal_max_chars": 40, "note": "Under 40 is ideal for mobile" },
+        "preview_text": { "chars": "40-90" },
+        "body_words": {
+          "newsletter": "200-500",
+          "announcement": "Shorter than newsletter"
+        }
+      },
+      "rules": [
+        "Subject line: clear, specific, no clickbait. 'Your BFR is tracked now' > 'Exciting news inside!'",
+        "One primary CTA per email",
+        "Mobile-first - most pilots read on their phone",
+        "Unsubscribe link required (CAN-SPAM)"
+      ],
+      "cadence": "1-2 per month (newsletter) + release announcements as needed",
+      "content_types": "Newsletter, announcements"
+    },
+    "blog": {
+      "formats": {
+        "title": { "chars": "50-60", "note": "For SEO - full title visible in search" },
+        "meta_description": { "chars": "150-160" },
+        "body_words": {
+          "standard_post": "1000-2500",
+          "pillar_content": "3000+"
+        },
+        "url_slug": { "style": "Short, keyword-focused, hyphens not underscores" }
+      },
+      "rules": [
+        "H1 for title, H2 for major sections, H3 for subsections",
+        "Front-load the answer/value - don't bury the lede",
+        "Include internal links to product pages and other posts",
+        "Images every 300-500 words for scannability",
+        "Target one primary keyword per post"
+      ],
+      "cadence": "2-4 per month",
+      "content_types": "SEO content, comparisons, guides"
+    }
+  },
+  "cadence_summary": [
+    {
+      "platform": "Instagram",
+      "frequency": "3-4 feed + 2-3 stories/reels per week",
+      "content_type": "Screenshots, tips, community"
+    },
+    {
+      "platform": "TikTok",
+      "frequency": "2-3 per week",
+      "content_type": "Quick tips, behind the scenes, aviation humor"
+    },
+    {
+      "platform": "Reddit",
+      "frequency": "3-5 interactions per week",
+      "content_type": "Comments, helpful replies, occasional posts"
+    },
+    {
+      "platform": "LinkedIn",
+      "frequency": "2 per week",
+      "content_type": "Founder reflections, product updates, industry takes"
+    },
+    {
+      "platform": "X/Twitter",
+      "frequency": "3-5 per week",
+      "content_type": "Quick thoughts, replies, product news"
+    },
+    {
+      "platform": "YouTube",
+      "frequency": "1-2 per month",
+      "content_type": "Tutorials, comparisons, feature walkthroughs"
+    },
+    {
+      "platform": "Blog",
+      "frequency": "2-4 per month",
+      "content_type": "SEO content, comparisons, guides"
+    },
+    {
+      "platform": "Email",
+      "frequency": "1-2 per month + releases",
+      "content_type": "Newsletter, announcements"
+    }
+  ]
+}

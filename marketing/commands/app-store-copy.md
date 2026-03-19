@@ -6,12 +6,11 @@ argument-hint: [what's-new | full-listing | keywords]
 
 Generate or optimize App Store copy for Abeam Pilot.
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — for voice and tone
-- `tagline-library` — for subtitle options and supporting taglines
-- `platform-specs` — for App Store character limits and formatting rules
-- `product-knowledge` — for accurate feature descriptions
-- `competitive-context` — for keyword and positioning opportunities
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read these data/reference files:
+- `marketer/data/taglines.json` — for subtitle options and supporting taglines
+- `marketer/data/platform-specs.json` — for App Store character limits and formatting rules
+- `marketer/reference/product-knowledge.md` — for accurate feature descriptions
+- `marketer/reference/competitive-landscape.md` — for keyword and positioning opportunities
 
 **Determine the task** from $ARGUMENTS:
 - **what's-new**: Write "What's New" release notes for a specific update
@@ -27,7 +26,7 @@ Generate or optimize App Store copy for Abeam Pilot.
 
 **For full listing optimization:**
 - Title: "Abeam Pilot" (30 chars max)
-- Subtitle: Pick from tagline-library options or propose new (30 chars max)
+- Subtitle: Pick from `data/taglines.json` App Store subtitles or propose new (30 chars max)
 - Description: Front-load the value prop. First 3 lines visible before "more." Max 4,000 chars.
 - Keywords: 100 characters total, comma-separated, no spaces after commas, singular forms, no duplicates. Cross-reference competitor keywords.
 

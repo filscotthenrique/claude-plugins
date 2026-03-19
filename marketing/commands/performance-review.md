@@ -6,12 +6,12 @@ argument-hint: [time range or platform filter]
 
 Analyze Abeam's marketing content performance using the experiment log.
 
-**Before doing anything**, load these skills by reading their SKILL.md files:
-- `experiment-memory` — for how to read and analyze the log
-- `platform-specs` — for benchmark expectations per platform
+**Before doing anything**, load the `marketer` skill by reading its SKILL.md, then read:
+- `marketer/reference/experiment-guide.md` — for how to read and analyze the log
+- `marketer/data/platform-specs.json` — for benchmark expectations per platform
 
 **Read the experiment log:**
-Look for `experiment-log.csv` in the working directory. If it doesn't exist, let the user know and offer to create it.
+Look for `marketer/data/experiment-log.csv`. If it doesn't exist, let the user know and offer to create it with the header row.
 
 **Gather optional filters** from $ARGUMENTS:
 - **Time range**: "last week," "last 30 days," "March," or all-time

@@ -8,13 +8,12 @@ Generate a complete release marketing package for Abeam.
 
 This is the primary output of the Git-to-marketing pipeline. It takes a release summary (what changed) and produces ready-to-publish marketing content across all channels.
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — for voice and tone across all outputs
-- `tagline-library` — for feature-specific hooks and taglines
-- `audience-profiles` — to tailor content for different segments
-- `product-knowledge` — to ensure accuracy and identify what's new vs existing
-- `platform-specs` — for format requirements per channel
-- `experiment-memory` — check what angles have worked for similar features
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read these data/reference files:
+- `marketer/data/taglines.json` — for feature-specific hooks and taglines
+- `marketer/data/audience-profiles.json` — to tailor content for different segments
+- `marketer/data/platform-specs.json` — for format requirements per channel
+- `marketer/data/experiment-log.csv` — check what angles have worked for similar features
+- `marketer/reference/product-knowledge.md` — to verify accuracy and identify what's new vs existing
 
 **Gather the release information:**
 
@@ -53,10 +52,10 @@ If $ARGUMENTS points to a file, read it. Otherwise, ask:
 - 3–5 tagline options specific to this feature/update
 - Note which existing taglines from the library could be adapted
 
-### 6. Product-knowledge skill update (proposed)
-- Draft the additions/changes to the `product-knowledge` SKILL.md
-- Present as a diff: "Add this to the feature list" / "Move this from planned to live"
-- The user reviews and merges these changes
+### 6. Product state verification
+- Verify that `data/product-state.jsonl` includes entries for this release's features
+- If the `/finalize` pipeline has already run, entries should exist automatically
+- If entries are missing, append them to `data/product-state.jsonl` following the JSONL schema: `{"date":"YYYY-MM-DD","scope":"...","feature":"...","type":"feature","description":"...","commits":["..."]}`
 
 **Output format:**
 - Each section clearly labeled and formatted for its target platform

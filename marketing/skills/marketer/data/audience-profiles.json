@@ -1,0 +1,365 @@
+{
+  "positioning_statement": "For student pilots and flight instructors who are frustrated by fragmented, outdated tools that weren't designed for them, Abeam is a pilot-first platform that brings logbook, currency tracking, weather, scheduling, and progress into one modern app. Unlike Flight Schedule Pro and LogTen Pro, which serve school administrators or power users on a single platform, Abeam starts with the people actually flying — and grows with them from first lesson to flight school management.",
+  "personas": [
+    {
+      "id": "student-pilot",
+      "name": "Student Pilot",
+      "phase": "launch",
+      "timeline": "Q2 2026",
+      "demographics": {
+        "age": "18-35",
+        "description": "College student or early career professional, pre-solo through checkride prep.",
+        "spending": "$10,000-$20,000+",
+        "devices": "iPhone and/or iPad",
+        "discovery": "TikTok, Instagram, Reddit, YouTube, CFI recommendations"
+      },
+      "priorities": [
+        "Cost (free is essential)",
+        "Simplicity (must be intuitive on first open)",
+        "Cross-platform (phone + web)",
+        "Community (wants to belong to something)"
+      ],
+      "pain_points": [
+        "Juggling 5+ apps for logbook, weather, documents, scheduling, and study",
+        "No good free logbook with modern UX",
+        "Confusion about currency and medical requirements",
+        "Cost opacity — never sure how much training has actually cost",
+        "Instructor turnover means lost context"
+      ],
+      "messaging": {
+        "hooks": [
+          "Free to fly with. No hour limits. No bait-and-switch.",
+          "Your logbook, your currency, your weather — one app, on your iPhone and the web",
+          "Built for the way you fly",
+          "Log a flight in under 30 seconds"
+        ],
+        "elevator_pitch": "Abeam is a free app that puts your whole flying life in one place — your logbook, your currency, live weather at your home airport, your aircraft, and your certificates. It works on your iPhone, your iPad, and the web, so your data is always with you. We built it because we're pilots too, and we were tired of juggling five different apps just to go flying.",
+        "emphasis": "Emphasize FREE. Emphasize SIMPLE. Never talk down about experience level."
+      },
+      "tone": "Warm, encouraging, peer-to-peer. Respectful of the financial and emotional weight of training. Never condescending. Enthusiastic without being cheesy.",
+      "channels": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube (discovery)",
+        "Reddit r/flying, r/StudentPilots (validation/research)",
+        "App Store search (high-intent)",
+        "CFI recommendation (most trusted)"
+      ],
+      "budget": {
+        "sensitivity": "Extreme (free)",
+        "range": "Free",
+        "timeline_to_adopt": "<1 week",
+        "primary_concern": "Cost + simplicity",
+        "discovery_channel": "TikTok, Reddit"
+      },
+      "pain_point_matrix": [
+        {
+          "pain": "Juggling 5-8 apps to train",
+          "message": "One app for your whole flying life",
+          "channels": ["App Store", "homepage hero", "TikTok"],
+          "status": "active"
+        },
+        {
+          "pain": "No Android logbook",
+          "message": "iOS, Android, and web. Your choice.",
+          "channels": [],
+          "status": "retired",
+          "retired_reason": "Do not use — no Android app at launch"
+        },
+        {
+          "pain": "Medical/currency confusion",
+          "message": "Upload once. We track it for you.",
+          "channels": ["Feature highlight", "TikTok quick tip"],
+          "status": "active"
+        },
+        {
+          "pain": "Cost opacity",
+          "message": "Know what you've spent — and what's ahead",
+          "channels": ["Blog", "dashboard feature highlight"],
+          "status": "active"
+        },
+        {
+          "pain": "Instructor turnover = lost progress",
+          "message": "Your progress is yours — it stays with you",
+          "channels": ["Blog", "Phase 2 marketing"],
+          "status": "active"
+        },
+        {
+          "pain": "No way to see what's next",
+          "message": "Your dashboard shows where you are and what's coming",
+          "channels": ["Feature page", "app walkthrough video"],
+          "status": "active"
+        },
+        {
+          "pain": "Intimidated by regulations",
+          "message": "Built-in reference docs, always searchable",
+          "channels": ["App Store", "content marketing"],
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "active-private-pilot",
+      "name": "Active Private Pilot",
+      "phase": "launch",
+      "timeline": "Q2 2026",
+      "demographics": {
+        "age": "30-55",
+        "description": "Working professional, PPL or instrument rated. Flies 2-8 times per month. Rents from a club or co-owns.",
+        "spending": null,
+        "devices": "iPhone primary, iPad in cockpit",
+        "discovery": "Forums, YouTube, fly-ins, EAA meetings"
+      },
+      "priorities": [
+        "Value (does this replace something I already pay for?)",
+        "Data portability (can I import/export?)",
+        "Cross-platform",
+        "Quality (they've used ForeFlight — they expect polish)"
+      ],
+      "pain_points": [
+        "Currency anxiety (\"I had to cancel a flight because I wasn't sure if my night currency was valid\")",
+        "Subscription fatigue ($200/yr ForeFlight + $130/yr LogTen)",
+        "Platform lock-in (all data in ForeFlight/LogTen, can't leave)",
+        "ForeFlight's logbook is an afterthought bolted onto flight planning"
+      ],
+      "messaging": {
+        "hooks": [
+          "Never wonder 'am I current?' again",
+          "Your data follows you. Not the other way around.",
+          "Your logbook shouldn't cost more than avgas"
+        ],
+        "elevator_pitch": null,
+        "emphasis": "Understated, factual. They know what they want — don't oversell."
+      },
+      "tone": "Peer-to-peer, factual and fair about competitors, understated. Respect their time and intelligence.",
+      "channels": [
+        "Pilots of America (trusted community)",
+        "Reddit r/flying (trusted community)",
+        "YouTube (comparison content)",
+        "LinkedIn",
+        "In-person at fly-ins and EAA meetings"
+      ],
+      "budget": {
+        "sensitivity": "Moderate",
+        "range": "Free-$50/yr",
+        "timeline_to_adopt": "1-2 weeks",
+        "primary_concern": "Value + portability",
+        "discovery_channel": "Forums, YouTube"
+      },
+      "pain_point_matrix": [
+        {
+          "pain": "A pilot app that doesn't care what phone you carry",
+          "message": "Finally, a pilot app that doesn't care what phone you carry",
+          "channels": [],
+          "status": "retired",
+          "retired_reason": "Do not use — implies Android support"
+        }
+      ]
+    },
+    {
+      "id": "flight-school-owner",
+      "name": "Flight School Owner",
+      "phase": "phase-3",
+      "timeline": "Q4 2026",
+      "demographics": {
+        "age": "45-65",
+        "description": "Former CFI or commercial pilot. 1-10 aircraft, 5-15 instructors, 30-80 active students. $300K-$2M annual revenue.",
+        "spending": null,
+        "devices": null,
+        "discovery": "Events, email, aviation forums, in-person at aviation events"
+      },
+      "priorities": [
+        "ROI",
+        "Aircraft utilization",
+        "Instructor retention",
+        "Student completion rates",
+        "Reducing admin overhead"
+      ],
+      "pain_points": [
+        "Scheduling is a mess and planes sit idle",
+        "More time on admin than flying or teaching",
+        "Current software too expensive, too complicated, or desktop-only",
+        "Opaque pricing (\"Why do I have to talk to sales?\")"
+      ],
+      "messaging": {
+        "hooks": [
+          "Modern software designed for Part 61 schools",
+          "Your people are already on Abeam. Now you can connect them.",
+          "ROI-oriented: time saved, utilization improved, transparent pricing"
+        ],
+        "elevator_pitch": "Abeam is a modern platform for flight schools that your instructors and students actually want to use — because many of them already do. We start with free pilot tools, add instructor management, and then give schools scheduling, billing, and fleet management at transparent pricing with no contracts. Your people are already on Abeam. Now you can connect them.",
+        "emphasis": "Thin margins — every dollar counts. Lead with ROI and transparent pricing."
+      },
+      "tone": "Professional but not corporate. Respect for aviation expertise. Peer-to-peer, not vendor-to-customer.",
+      "channels": [
+        "Email",
+        "Phone (scheduled calls)",
+        "Aviation forums (lurks)",
+        "In-person at aviation events",
+        "AOPA",
+        "Flying Magazine",
+        "Aviation podcasts"
+      ],
+      "budget": {
+        "sensitivity": "Moderate",
+        "range": "$50-$150/mo",
+        "timeline_to_adopt": "4-6 weeks",
+        "primary_concern": "ROI",
+        "discovery_channel": "Events, email"
+      },
+      "pain_point_matrix": []
+    },
+    {
+      "id": "flight-school-manager",
+      "name": "Flight School Manager / Chief Instructor",
+      "phase": "phase-3",
+      "timeline": "Q3-Q4 2026",
+      "demographics": {
+        "age": "30-55",
+        "description": "Experienced CFI with 1,000-5,000 hours. Manages day-to-day operations. Key influencer — if they don't like it, the purchase doesn't happen.",
+        "spending": null,
+        "devices": null,
+        "discovery": "Trial, peers"
+      },
+      "priorities": [
+        "Efficiency",
+        "Student success",
+        "Mobile access",
+        "Ease of use"
+      ],
+      "pain_points": [
+        "Half the day spent managing schedules (phone calls, texts, whiteboard updates)",
+        "Instructors don't update availability",
+        "No centralized student progression tracking",
+        "Desktop-only systems that can't be used from the flight line"
+      ],
+      "messaging": {
+        "hooks": [
+          "Get back to teaching instead of coordinating schedules",
+          "Update schedules from anywhere — you're not chained to the desk",
+          "Students can see availability and book themselves — no more phone tag",
+          "There's a better way to run your CFI business",
+          "The first app built for the way you actually work",
+          "Get your non-flying hours back",
+          "See every student's journey at a glance"
+        ],
+        "elevator_pitch": "Abeam starts as a pilot logbook and dashboard, but we're building a full instructor platform — student management, digital endorsements, scheduling, debriefs, billing. Right now your students can use Abeam Pilot for free, and when you upgrade to Abeam Instruct, you get instructor tools that were actually built for how independent CFIs work. No more Google Calendar and Venmo.",
+        "emphasis": "Practical, solutions-oriented. Concise. Empathetic to daily challenges. Empathize with the admin burden. Acknowledge thin margins. Speak to the reality of independent instruction."
+      },
+      "tone": "Practical, solutions-oriented. Concise. Empathetic to daily challenges. Professional but warm.",
+      "channels": [
+        "Trial/demo (hands-on evaluation)",
+        "Peer recommendations",
+        "LinkedIn (professional presence)",
+        "Reddit r/CFI",
+        "NAFI events",
+        "Direct outreach",
+        "Podcast appearances"
+      ],
+      "budget": {
+        "sensitivity": "N/A (not buyer)",
+        "range": "N/A",
+        "timeline_to_adopt": "2-3 weeks",
+        "primary_concern": "Efficiency",
+        "discovery_channel": "Trial, peers"
+      },
+      "pain_point_matrix": [
+        {
+          "pain": "Google Calendar + Venmo + spreadsheet",
+          "message": "There's a better way to run your CFI business",
+          "channels": ["LinkedIn", "blog", "Instructor app launch"],
+          "status": "active"
+        },
+        {
+          "pain": "Hours of unpaid admin daily",
+          "message": "Get your non-flying hours back",
+          "channels": ["TikTok", "instructor marketing"],
+          "status": "active"
+        },
+        {
+          "pain": "Endorsement tracking chaos",
+          "message": "Digital endorsements. Stored properly. Always accessible.",
+          "channels": ["Blog", "feature page"],
+          "status": "active"
+        },
+        {
+          "pain": "Nothing built for independent CFIs",
+          "message": "The first app built for the way you actually work",
+          "channels": ["Launch campaign", "LinkedIn", "podcasts"],
+          "status": "active"
+        },
+        {
+          "pain": "No way to share materials with students",
+          "message": "Your resource portal — docs, tools, and materials in one link",
+          "channels": ["Pro feature page"],
+          "status": "active"
+        },
+        {
+          "pain": "Student progress is invisible",
+          "message": "See every student's journey at a glance",
+          "channels": ["Instructor app marketing"],
+          "status": "active"
+        },
+        {
+          "pain": "Awkward payment collection",
+          "message": "Built-in invoicing — no more chasing checks",
+          "channels": ["Phase 2/3 feature page"],
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "independent-cfi",
+      "name": "Independent CFI / Small Flying Club Manager",
+      "phase": "phase-3",
+      "timeline": "Q3-Q4 2026",
+      "demographics": {
+        "age": "25-45 (CFI building hours) or 40-65 (volunteer club manager)",
+        "description": "CFI building hours or volunteer club manager. 1-2 aircraft, 5-15 students or 30-150 club members. Extremely price-sensitive.",
+        "spending": null,
+        "devices": null,
+        "discovery": "Google, forums"
+      },
+      "priorities": [
+        "Affordability above all",
+        "Simplicity",
+        "DIY mindset — willing to figure things out themselves"
+      ],
+      "pain_points": [
+        "Manual billing eats hours every month",
+        "Enterprise software costs more than they make",
+        "Scheduling via group texts and shared Google calendars",
+        "\"All-in-one\" solutions have features they don't need (paying for bloat)"
+      ],
+      "messaging": {
+        "hooks": [
+          "Stop spending hours on manual billing and scheduling",
+          "Set up your account in minutes, not days",
+          "Month-to-month, cancel anytime"
+        ],
+        "elevator_pitch": null,
+        "emphasis": "Lead with price. Show the $29/month number early."
+      },
+      "tone": "No-nonsense, respectful of budget constraints, supportive.",
+      "channels": [
+        "Google search",
+        "Aviation forums"
+      ],
+      "budget": {
+        "sensitivity": "Extreme",
+        "range": "$20-$40/mo max",
+        "timeline_to_adopt": "1-2 weeks",
+        "primary_concern": "Affordability",
+        "discovery_channel": "Google, forums"
+      },
+      "pain_point_matrix": []
+    }
+  ],
+  "investor_press_pitch": "Abeam is a platform for general aviation growing from the bottom up. We give pilots free tools — logbook, currency, weather — then expand into paid instructor and flight school management. Our go-to-market flips the industry: instead of selling to school admins and forcing adoption, we build loyalty with individuals first. The flight training software market is fragmented, outdated, and ripe for a modern, mobile-first platform.",
+  "writing_guidelines": [
+    "Check the persona's pain points — lead with one they'd recognize.",
+    "Match their tone expectations (student = warm; private pilot = understated; school owner = professional).",
+    "Use their preferred channels' formatting conventions.",
+    "Reference their buying behavior to calibrate the CTA (students: \"free, no credit card\"; school owners: \"schedule a demo or try free for 30 days\")."
+  ]
+}

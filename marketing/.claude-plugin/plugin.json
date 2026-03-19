@@ -1,9 +1,9 @@
 {
   "name": "abeam-marketing",
-  "version": "0.2.1",
-  "description": "Marketing operations toolkit for Abeam — brand voice, content generation, audience messaging, competitive context, experiment tracking, and release workflows for aviation software marketing.",
+  "version": "0.3.0",
+  "description": "Marketing operations toolkit for Abeam — unified marketer skill with structured data (JSON taglines, audience profiles, platform specs, product state), prose references (competitive landscape, website copy patterns, boilerplate), and 9 workflow commands.",
   "author": {
     "name": "Fil"
   },
-  "keywords": ["abeam", "aviation", "marketing", "brand-voice", "content-generation"]
+  "keywords": ["abeam", "aviation", "marketing", "brand-voice", "content-generation", "structured-data"]
 }

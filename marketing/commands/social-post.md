@@ -6,13 +6,12 @@ argument-hint: [platform] [feature or topic]
 
 Generate a social media post for Abeam.
 
-**Before writing anything**, load these skills by reading their SKILL.md files:
-- `brand-voice` — for voice, tone, and formatting rules
-- `tagline-library` — for hooks and one-liners to build from
-- `platform-specs` — for the target platform's character limits, hashtag strategy, and formatting
-- `product-knowledge` — for accurate product descriptions
-- `audience-profiles` — if a specific audience is mentioned
-- `experiment-memory` — check the experiment log for what's worked before on this platform
+**Before writing anything**, load the `marketer` skill by reading its SKILL.md, then read these data files:
+- `marketer/data/taglines.json` — for hooks and one-liners to build from
+- `marketer/data/platform-specs.json` — for the target platform's character limits, hashtag strategy, and formatting
+- `marketer/data/audience-profiles.json` — if a specific audience is mentioned
+- `marketer/data/experiment-log.csv` — check what's worked before on this platform
+- `marketer/reference/product-knowledge.md` — if product claims need verification
 
 **Gather these inputs** (ask if not provided in $ARGUMENTS):
 1. **Platform**: Instagram, TikTok, Reddit, LinkedIn, X, or multiple
