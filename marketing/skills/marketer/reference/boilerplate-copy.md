@@ -8,11 +8,11 @@ Standard company descriptions at various lengths. Use for bios, "about" sections
 
 ## Medium (50 words)
 
-> Abeam is built for the way you fly. Start with a free pilot logbook, automatic currency tracking, a digital hangar for your aircraft, and live weather on your dashboard — on your iPhone, your iPad, and the web. Upgrade to Pro for instructor tools, student tracking, and a personal resource portal. From first flight to flight review.
+> Abeam is built for the way you fly. Start with a free pilot logbook, automatic currency tracking, a digital hangar for your aircraft, and live weather on your dashboard — on your iPhone, your iPad, and the web. For instructors, Abeam Instruct adds student tracking, digital endorsements, and a personal resource portal. From first flight to flight review.
 
 ## Long (100 words)
 
-> Abeam is a pilot-first platform built for the way you fly. The free Abeam Pilot app gives you a modern digital logbook, automatic currency tracking powered by your uploaded medical and certificates, a digital hangar for your aircraft, live METAR conditions for your home airport, built-in regulatory references, and a clean dashboard with your stats — on your iPhone, your iPad, and the web. Upgrade to Abeam Instruct for instructor tools: student tracking, a personal resource portal, and digital endorsements. A dedicated Abeam Instructor app is coming with full student management, debrief workflows, scheduling, and invoicing. Built in Colorado by a pilot who'd rather be flying.
+> Abeam is a pilot-first platform built for the way you fly. The free Abeam Pilot app gives you a modern digital logbook, automatic currency tracking powered by your uploaded medical and certificates, a digital hangar for your aircraft, live METAR conditions for your home airport, built-in regulatory references, and a clean dashboard with your stats — on your iPhone, your iPad, and the web. For instructors, Abeam Instruct is a dedicated app for student management, digital endorsements, a personal resource portal, debrief workflows, scheduling, and invoicing. Made in Colorado by people who love flying.
 
 ## Product descriptions
 
@@ -32,13 +32,17 @@ Standard company descriptions at various lengths. Use for bios, "about" sections
 
 **Your digital hangar.** Add and manage your aircraft — whether you rent, own, or share. Every tail number, every detail, integrated directly with your logbook.
 
+**Works offline.** Log flights on your iPhone or iPad even without cell service. Your entries sync automatically when you're back in range. (iOS only — web requires connectivity.)
+
+**See your progress.** Pick a training goal — PPL, instrument, commercial — and watch your XP bar fill as you log flights and hit milestones.
+
 **Built-in references.** FARs, AIM, and essential regulatory docs searchable and always in your pocket. No more Googling the regs on the ramp.
 
 **Built by a pilot, not a committee.** Abeam was designed by someone who actually sits in the left seat.
 
-### Abeam Instruct (Paid — Instructor Tools)
+### Abeam Instruct (Paid — Separate Instructor App)
 
-**Primary message:** Everything in Abeam Pilot, plus the tools to run your instruction the way it should be run.
+**Primary message:** A dedicated app for running your instruction the way it should be run.
 
 **Supporting messages:**
 
@@ -48,6 +52,12 @@ Standard company descriptions at various lengths. Use for bios, "about" sections
 
 **Priced for a CFI budget.** You're building hours, not an empire. Abeam Instruct costs less than a single ground lesson.
 
+## Website footer description
+
+"Tools for general aviation: pilot logbooks, aircraft management, and more. On your iPhone and the web. Made in Colorado by people who love flying."
+
+Three sentences, three jobs: what it is, where it runs, who built it.
+
 ## Website footer line
 
-"Made in Colorado by a pilot who'd rather be flying."
+"Made in Colorado by people who love flying."

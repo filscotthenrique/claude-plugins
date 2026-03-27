@@ -30,7 +30,7 @@ Not a SaaS marketing page. Not an airline safety briefing. Not a Silicon Valley 
 
 **Understate and overdeliver.** Pilots are skeptical people. Overclaiming erodes trust instantly. If the feature is good, describe it simply and let the reader draw their own conclusion. "Upload your medical once. We track your currency automatically." — that's more persuasive than any superlative.
 
-**Be authentic about who we are.** Abeam is built by a pilot, in Colorado, because the existing tools weren't good enough. That origin story is a strength. Use it naturally, not as a constant refrain.
+**Be authentic about who we are.** Abeam is built by people who love flying, in Colorado, because the existing tools weren't good enough. That origin story is a strength. Use it naturally, not as a constant refrain.
 
 **Humor is welcome, but grounded.** Self-deprecating beats clever wordplay. Hangar talk beats advertising copy. If a joke would land at a fly-in breakfast, it'll work. If it sounds like a copywriter wrote it, cut it.
 
@@ -69,6 +69,12 @@ Use correct aviation terms. This is non-negotiable — getting terminology wrong
 - **Logbook**, not "flight journal" or "flight record"
 
 When writing about features, map them to how pilots actually talk: "currency tracking" not "compliance monitoring," "digital hangar" not "aircraft asset management."
+
+**Spell out "general aviation."** Don't abbreviate to "GA" in public-facing copy. New pilots and non-aviation visitors may not know the abbreviation. Write "Tools for general aviation" not "Tools for GA."
+
+**Use "What's New" not "Changelog."** User-facing release notes should be called "What's New." "Changelog" and "Release Notes" are developer terminology.
+
+**Don't list regulatory coverage as a benefit.** Phrases like "every FAA category" or "all FAR references" are regulatory jargon, not marketing hooks. Pilots assume any decent logbook handles categories, currencies, and endorsements — listing them signals nothing. Lead with what the pilot GETS (speed, simplicity, sync) not what the software COVERS (FAA categories, FAR sections).
 
 ## Platform availability
 

@@ -36,6 +36,7 @@ Each feature page follows a consistent structure:
 - Use present tense for shipped features: "Abeam tracks your currency automatically"
 - Use future tense WITH timeline for unshipped: "Coming Q3 2026"
 - Never use "will" without a timeline indicator
+- **Don't list regulatory coverage as a benefit.** "Every FAA category," "all FAR references," "complete endorsement library" — pilots assume any decent tool handles these. Lead with what the pilot GETS (speed, simplicity, sync, freedom) not what the software COVERS (categories, regulations, form fields).
 
 ## "Coming Soon" Framing
 
@@ -94,6 +95,20 @@ Pull benefit-oriented headers from data/taglines.json when possible.
 | Instructor page | "See Pricing" or "Start Your Trial" | ROI-oriented |
 | School page | "Schedule a Demo" or "See Pricing" | Enterprise pattern |
 
+**NEVER use:** "Become a Founding Partner," "Lock in founding partner rates," or any founding partner language. This program has been retired.
+
+## Product Naming in Comparisons
+
+When comparing to competitors on feature-specific pages, use the product name ("Pilot", "Instruct") not the company name. On general/brand pages, use "Abeam."
+
+| Context | Name | Example |
+|---------|------|---------|
+| Logbook feature page | "Pilot" | "See How Pilot Stacks Up" |
+| Currency feature page | "Pilot" | "How Pilot Tracks Your Currency" |
+| Instructor feature page | "Instruct" | "What Makes Instruct Different" |
+| Homepage / general | "Abeam" | "Built for the way you fly" |
+| Footer / about | "Abeam" | "Tools for general aviation" |
+
 ## Internal Linking
 
 Every page should link to 2-3 related pages:
@@ -146,3 +161,37 @@ When discussing features at various stages:
 | Next quarter | "Coming [Quarter Year]" | "Coming Q3 2026" |
 | Planned (2+ quarters out) | "On our roadmap" | "On our roadmap for Q4 2026" |
 | Aspirational / no timeline | "We're exploring" | "We're exploring maintenance tracking" |
+
+---
+
+## Content Hub (/learn + /whats-new)
+
+The marketing site has two content areas:
+
+### /learn — Article Library
+
+All long-form content lives here. Four categories, filterable via client-side pills:
+
+| Category | Content Type | Examples |
+|----------|-------------|---------|
+| Tutorials | How-to guides, migration guides | "Migrate from ForeFlight," "Review Auto-Generated Entries" |
+| What's New | Feature announcements, release articles | "Introducing Scheduling" |
+| Company | Behind-the-scenes, roadmap, updates | "Introducing Abeam" |
+| User Stories | Testimonials, case studies, pilot profiles | (future) |
+
+### /whats-new — Release Timeline
+
+A YNAB-inspired timeline of releases. NOT an article collection — it's a structured product page that links OUT to articles, videos, feature walkthroughs, and demos. Each entry has: date, platform badges (Web/iOS), headline, description, highlights, and action links.
+
+A feature launch might produce:
+- A What's New timeline entry (structured card)
+- A tutorial in /learn/tutorials/ ("How to use the new feature")
+- A blog post in /learn/ with category "What's New"
+
+The timeline entry links to all of these.
+
+### Content Copy Rules
+- Tutorial titles: imperative or "How to..." — "How to Migrate Your Logbook from ForeFlight"
+- Blog posts: descriptive — "Introducing Scheduling for Flight Schools"
+- What's New entries: short, feature-focused — "January Platform Update"
+- All content should have keyword-rich `seoTitle` and `seoDescription` frontmatter for search

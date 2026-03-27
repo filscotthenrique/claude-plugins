@@ -83,6 +83,44 @@ Only name a competitor when ALL of these are true:
 - **Strengths:** Innovative student self-debrief workflow, ACS-based progress tracking, founder active in forums.
 - **Vulnerabilities:** Small user base, dated feel, referral pricing creates friction.
 
+## Competitor marketing copy analysis (March 2026)
+
+How competitors describe their logbook features — actual copy and messaging angles.
+
+### ForeFlight logbook marketing
+- **Hero copy:** No standalone tagline. Leads with "FOREFLIGHT LOGBOOK" as a label, then "Logbook is built-in to the ForeFlight app..." The word "built-in" does all the work.
+- **Messaging angle:** Integration and ecosystem. The logbook is sold as a native capability of the EFB you already use — not a standalone product.
+- **Strongest hooks:** "Never forget an entry!" (auto-draft from track log — plays on real pilot anxiety). "Your Data Is Yours" (data portability as trust signal). FAA AC 61-65H citation in endorsement templates adds authority.
+- **Tone:** Professional, feature-dense. Reads like product documentation lightly edited for marketing.
+- **CFI angle:** Dedicated section — "The Perfect Platform for Flight Instructors" — recognizes CFIs as an adoption vector.
+- **Weakness:** No emotional hook. No speed claim. No personality.
+
+### LogTen Pro / Pilotbase logbook marketing
+- **Hero copy:** "The Only Pilot Logbook for Your Whole Aviation Career" / "Log flights. Celebrate milestones. Land your dream job."
+- **Messaging angle:** Career arc and professional advancement. Logbook = career asset, not compliance tool. Connects student pilots to airline recruitment.
+- **Strongest hooks:** The three-beat tagline escalates mundane → emotional → aspirational. Free-to-PPL framing ("free right up to your PPL") translates a technical threshold (50 hours) into a human milestone. The `[gasp] paper logbooks` line is genuinely distinctive brand voice.
+- **Tone:** Aspirational and confidently casual. Self-assured enough to mock paper logbooks with humor.
+- **Pricing copy:** "$80-$130/year" framed as "price of a latte a month." Free for first 50 hours.
+- **Weakness:** Career/airline messaging may alienate weekend GA pilots who aren't building hours for the airlines.
+
+### MyFlightbook logbook marketing
+- **Hero copy:** "The most popular FREE logbook for pilots worldwide" / "Join 100,000+ pilots worldwide"
+- **Messaging angle:** Free, universal, community-built. The word "free" IS the entire value proposition. Live flight statistics (25M+ flights) as transparent community proof.
+- **Strongest hooks:** "Ditch the paper without losing your history" (migration copy — "history" is emotionally resonant). "Confidence in the cockpit starts with knowing you are current" (connects logbook to safety). "The transition is designed to be smooth and low pressure" (objection handling baked into feature description).
+- **Tone:** Functional and approachable. Written by an engineer-pilot. Technically clear, not commercially polished.
+- **Weakness:** No design/UX claims. No speed claims. Breadth over depth messaging.
+
+### Messaging lanes already claimed
+| Lane | Claimed by | Their hook |
+|------|-----------|------------|
+| Career aspiration | LogTen | "Land your dream job" |
+| Free + community | MyFlightbook | "100K+ pilots, completely free" |
+| Integration / ecosystem | ForeFlight | "Built-in to the app you already use" |
+| **Speed + modern + free** | **Unclaimed** | **Abeam's open lane** |
+
+### Gap: institutional logbook
+No competitor markets the logbook as an institutional asset — something that matters to the school, dispatcher, chief CFI, and examiner, not just the individual pilot. Abeam is positioned to own this angle with Abeam Instruct.
+
 ## Market-wide themes to leverage
 
 **Subscription fatigue:** Pilots are tired of paying $100-300/year across multiple apps. Abeam's free tier directly counters this.
@@ -94,6 +132,10 @@ Only name a competitor when ALL of these are true:
 **Community > budget:** MyFlightbook proves that personal engagement beats marketing spend. Abeam's founder-led community approach follows this playbook.
 
 **CFI workflow gap:** No tool combines student CRM + progress tracking + debrief + endorsements + scheduling + invoicing for independent CFIs. This is Abeam Instruct's open lane.
+
+**Offline-first as differentiator:** No competing logbook app shows transparent per-row sync status indicators. ForeFlight has offline charts but its logbook requires connectivity. LogTen Pro has local storage but no visible sync state. Abeam shows pilots exactly which entries are synced, pending, or waiting to upload — building trust through transparency. This is a genuine UX differentiator for pilots at remote airfields.
+
+**Signature integrity:** Abeam's SHA-256 entry hash for CFI signatures (AC 120-78B compliant) is a defensible differentiator for regulatory trust. No competing app advertises cryptographic integrity verification for instructor endorsements.
 
 ## Instructor tool competitive matrix
 
